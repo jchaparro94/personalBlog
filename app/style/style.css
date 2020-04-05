@@ -10,15 +10,17 @@ body {
 
 header {
    min-height: 350px;
-   background-color: blue;
    color: white;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/banner.jpg);
    background-size: cover;
-   /* background-position: center; */
+   background-position: center;
+}
+
+.home-page header {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/banner.jpg);
 }
 
 .profile-image {
