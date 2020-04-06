@@ -19,7 +19,7 @@ header {
    background-position: center;
 }
 
-.home-page header {
+.home-page header, .new-post-page header {
    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/banner.jpg);
 }
 
@@ -32,7 +32,7 @@ header {
    background-size: cover;
 }
 
-.profile-name {
+.profile-name, .title {
    font-size: 3rem;
    font-weight: bold;
 }
@@ -76,7 +76,6 @@ header {
    flex-basis: 40%;
    background-size: cover;
    background-position: center;
-   /* background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); */
 }
 
 .post-content {

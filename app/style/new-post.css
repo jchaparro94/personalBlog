@@ -1,5 +1,3 @@
-
-
 form > * {
    display: block;
    margin-top: 16px;
@@ -8,6 +6,14 @@ form > * {
 
 #form-post-title {
    width: 300px;
+}
+
+.navigation a{
+   text-decoration: none;
+   color: black;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 5px 8px;
 }
 
 #form-post-title, #form-post-content {
