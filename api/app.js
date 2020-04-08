@@ -50,7 +50,7 @@ app.post("/api/posts", upload.single("post-image"), (req, res) => {
       "id": `${Date.now()}`,
       "title": req.body.title,
       "content": req.body.content,
-      "post-image": req.file.path,
+      "post_image": req.file.path,
       "added_date": `${Date.now()}`
    }
    postsData.add(newPost);

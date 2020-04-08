@@ -2,6 +2,8 @@
 body {
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
+   background-color: black;
+   color: white;
 }
 
 .post-link {
@@ -93,7 +95,7 @@ header {
 .post-title {
    margin-top: 16px;
    font-size: 1.7rem;
-   color: #333;
+   color: white;
    font-weight: 600;
 }
 
@@ -103,7 +105,7 @@ header {
 
 .post-text {
    margin-top: 4px;
-   color: #495057;
+   color: white;
    font-weight: 400;
    line-height: 1.4;
    max-height: 65px;
@@ -133,7 +135,7 @@ header {
 
 footer {
    min-height: 100px;
-   background-color: #eaecee70;
+   background-color: black;
    color: #929eaa;
    display: flex;
    justify-content: center;

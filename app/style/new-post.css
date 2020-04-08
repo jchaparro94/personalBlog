@@ -10,10 +10,14 @@ form > * {
 
 .navigation a{
    text-decoration: none;
-   color: black;
-   border: 1px solid black;
+   color: white;
+   border: 1px solid white;
    border-radius: 5px;
    padding: 5px 8px;
+}
+
+.form-container label {
+   background-color: white;
 }
 
 #form-post-title, #form-post-content {
